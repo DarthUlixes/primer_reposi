@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/negro"
+    android:fillViewport="true"
+    tools:context=".presentation.Prueba">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/texto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/ventana_2"
+            android:textColor="@color/menta"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Sección Audio -->
+        <LinearLayout
+            android:id="@+id/seccionAudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_seccion"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/seccion_audio"
+                android:textColor="@color/menta"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgCrash"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="6dp"
+                android:contentDescription="@string/titulo_crash"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/crash"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnAudio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/menta"
+                android:minHeight="44dp"
+                android:text="@string/reproducir_audio"
+                android:textColor="@color/negro" />
+
+        </LinearLayout>
+
+        <!-- Sección Sensor -->
+        <LinearLayout
+            android:id="@+id/seccionSensor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_seccion"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/seccion_sensor"
+                android:textColor="@color/menta"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtSensor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:text="@string/sensor_detenido"
+                android:textAlignment="center"
+                android:textColor="@color/menta"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnIniciarSensor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/menta"
+                android:minHeight="44dp"
+                android:text="@string/iniciar_sensor"
+                android:textColor="@color/negro" />
+
+            <Button
+                android:id="@+id/btnDetenerSensor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:backgroundTint="@color/menta"
+                android:enabled="false"
+                android:minHeight="44dp"
+                android:text="@string/detener_sensor"
+                android:textColor="@color/negro" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/boton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/menta"
+            android:minHeight="44dp"
+            android:text="@string/continuar"
+            android:textColor="@color/negro" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -24,3 +24,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Primer_repositorio"
 include(":app")
+include(":reloj")

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Reloj</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="saludar">Saludar</string>
+    <string name="mensaje_alerta">¡Bienvenido!</string>
+    <string name="ventana_2">Soy la ventana 2</string>
+    <string name="continuar">Continuar</string>
+    <string name="reproducir_audio">Reproducir audio</string>
+    <string name="titulo_crash">Crash</string>
+    <string name="seccion_audio">Audio</string>
+    <string name="seccion_sensor">Sensor</string>
+    <string name="sensor_detenido">Sensor: detenido</string>
+    <string name="sensor_esperando">Sensor: esperando lectura…</string>
+    <string name="sensor_lectura">Sensor: %.1f</string>
+    <string name="sensor_no_disponible">Sensor: no disponible en este dispositivo</string>
+    <string name="sensor_permiso_denegado">Sensor: permiso denegado</string>
+    <string name="iniciar_sensor">Iniciar sensor</string>
+    <string name="detener_sensor">Detener sensor</string>
+</resources>

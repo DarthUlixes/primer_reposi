@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.primer_repositorio
 
 import android.os.Bundle
 import android.widget.Button
@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             // Mostrar alerta
             AlertDialog.Builder(this)
                 .setTitle("Éxito")
-                .setMessage("El texto se mostró correctamente")
+                .setMessage("El texto se mostró con éxito")
                 .setPositiveButton("OK", null)
                 .show()
         }
