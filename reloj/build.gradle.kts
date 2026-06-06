@@ -7,11 +7,11 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.primer_repositorio.wear"
+        applicationId = "com.example.primer_repositorio"
         minSdk = 30
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "1.1-chat"
     }
 
     buildTypes {
@@ -35,4 +35,6 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.core.splashscreen)
+    implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.play.services.wearable)
 }

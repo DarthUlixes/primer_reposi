@@ -1,5 +1,6 @@
 package com.example.primer_repositorio
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -18,18 +19,17 @@ class MainActivity : AppCompatActivity() {
         val textView = findViewById<TextView>(R.id.txtResultado)
 
         button.setOnClickListener {
-
             val texto = editText.text.toString()
-
-            // Pasar texto al label
             textView.text = texto
-
-            // Mostrar alerta
             AlertDialog.Builder(this)
                 .setTitle("Éxito")
                 .setMessage("El texto se mostró con éxito")
                 .setPositiveButton("OK", null)
                 .show()
+        }
+
+        findViewById<Button>(R.id.btnChat).setOnClickListener {
+            startActivity(Intent(this, ChatActivity::class.java))
         }
     }
 }

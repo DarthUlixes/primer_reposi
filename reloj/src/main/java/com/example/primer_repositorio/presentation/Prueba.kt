@@ -1,5 +1,6 @@
 package com.example.primer_repositorio.presentation
 
+import android.content.Intent
 import android.Manifest
 import android.content.Context
 import android.content.pm.PackageManager
@@ -61,6 +62,10 @@ class Prueba : ComponentActivity(), SensorEventListener {
 
         btnIniciarSensor.setOnClickListener { solicitarInicioSensor() }
         btnDetenerSensor.setOnClickListener { detenerSensor() }
+
+        findViewById<Button>(R.id.btnAbrirChat).setOnClickListener {
+            startActivity(Intent(this, ChatActivity::class.java))
+        }
 
         findViewById<Button>(R.id.boton2).setOnClickListener { finish() }
 

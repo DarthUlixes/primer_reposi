@@ -15,6 +15,7 @@
     <uses-permission android:name="android.permission.BODY_SENSORS" />
 
     <application
+        android:name=".PhoneApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -23,6 +24,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Primer_repositorio">
+        <meta-data
+            android:name="com.google.android.gms.wearable.application"
+            android:resource="@xml/wearable_app_desc" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -32,6 +37,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ChatActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Primer_repositorio.Chat" />
+
+        <service
+            android:name=".ChatMessageListenerService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
+            </intent-filter>
+        </service>
+
     </application>
 
 </manifest>

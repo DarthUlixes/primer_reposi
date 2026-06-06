@@ -116,6 +116,46 @@
 
         </LinearLayout>
 
+        <!-- Sección Chat -->
+        <LinearLayout
+            android:id="@+id/seccionChat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_seccion"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/seccion_chat"
+                android:textColor="@color/menta"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:text="@string/chat_descripcion"
+                android:textAlignment="center"
+                android:textColor="@color/menta"
+                android:textSize="11sp" />
+
+            <Button
+                android:id="@+id/btnAbrirChat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/menta"
+                android:minHeight="44dp"
+                android:text="@string/abrir_chat"
+                android:textColor="@color/negro" />
+
+        </LinearLayout>
+
         <Button
             android:id="@+id/boton2"
             android:layout_width="match_parent"

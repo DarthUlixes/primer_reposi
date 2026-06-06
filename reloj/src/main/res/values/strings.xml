@@ -16,4 +16,23 @@
     <string name="sensor_permiso_denegado">Sensor: permiso denegado</string>
     <string name="iniciar_sensor">Iniciar sensor</string>
     <string name="detener_sensor">Detener sensor</string>
+    <string name="seccion_chat">Chat</string>
+    <string name="chat_descripcion">Mensajes con el celular</string>
+    <string name="abrir_chat">Abrir chat</string>
+    <string name="chat_enviar">Enviar mensaje</string>
+    <string name="chat_volver">Volver</string>
+    <string name="chat_recibidos">Mensajes</string>
+    <string name="chat_escribe_mensaje">Escribe un mensaje</string>
+    <string name="chat_desconectado">Estado: desconectado</string>
+    <string name="chat_esperando_celular">Esperando celular…</string>
+    <string name="chat_sin_celular">Sin celular. Empareja emuladores en Device Manager.</string>
+    <string name="chat_diag">Nodos: %1$d | App celular: %2$d</string>
+    <string name="chat_diag_celular">Celular detectado (%1$d)</string>
+    <string name="chat_conectado">Estado: conectado (nodo %1$s)</string>
+    <string name="chat_sin_mensajes">Sin mensajes aún</string>
+    <string name="chat_enviado">Tú: %1$s</string>
+    <string name="chat_recibido">Recibido: %1$s</string>
+    <string name="chat_sin_conexion">Sin conexión con el celular</string>
+    <string name="chat_error_nodo">Error al buscar nodo</string>
+    <string name="chat_error_envio">Error al enviar mensaje</string>
 </resources>

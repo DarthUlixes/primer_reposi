@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/negro"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtEstado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/chat_desconectado"
+            android:textColor="@color/menta"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnConectar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/menta"
+            android:text="@string/chat_conectar"
+            android:textColor="@color/negro" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="@string/chat_recibidos"
+            android:textColor="@color/menta"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtRecibidos"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/gris_oscuro"
+            android:padding="8dp"
+            android:scrollbars="vertical"
+            android:text="@string/chat_sin_mensajes"
+            android:textColor="@color/menta"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edtMensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="@string/chat_escribe_mensaje"
+            android:inputType="text"
+            android:textColor="@color/menta"
+            android:textColorHint="#88FFFFFF" />
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/menta"
+            android:enabled="false"
+            android:text="@string/chat_enviar"
+            android:textColor="@color/negro" />
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/menta"
+            android:text="@string/chat_volver"
+            android:textColor="@color/negro" />
+
+    </LinearLayout>
+
+</ScrollView>

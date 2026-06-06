@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Primer_repositorio</string>
+    <string name="abrir_chat">Abrir chat</string>
+    <string name="chat_conectar">Conectar con reloj</string>
+    <string name="chat_enviar">Enviar mensaje</string>
+    <string name="chat_volver">Volver</string>
+    <string name="chat_recibidos">Mensajes</string>
+    <string name="chat_escribe_mensaje">Escribe un mensaje</string>
+    <string name="chat_desconectado">Estado: desconectado</string>
+    <string name="chat_esperando_celular">Esperando conexión del celular</string>
+    <string name="chat_sin_nodos">Sin reloj emparejado (%1$d nodos). Abre el chat en el reloj y empareja en Device Manager.</string>
+    <string name="chat_conectado">Estado: conectado (nodo %1$s)</string>
+    <string name="chat_sin_mensajes">Sin mensajes aún</string>
+    <string name="chat_enviado">Tú: %1$s</string>
+    <string name="chat_recibido">Recibido: %1$s</string>
+    <string name="chat_sin_conexion">Sin conexión. Pulsa Conectar.</string>
+    <string name="chat_error_nodo">Error al buscar nodo</string>
+    <string name="chat_error_envio">Error al enviar mensaje</string>
 </resources>

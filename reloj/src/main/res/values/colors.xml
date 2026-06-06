@@ -2,4 +2,5 @@
 <resources>
     <color name="negro">#FF000000</color>
     <color name="menta">#FF98FF98</color>
+    <color name="gris_oscuro">#FF1A1A1A</color>
 </resources>

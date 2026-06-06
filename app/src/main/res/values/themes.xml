@@ -1,9 +1,20 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
     <style name="Base.Theme.Primer_repositorio" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/menta</item>
+        <item name="colorOnPrimary">@color/negro</item>
+        <item name="colorSecondary">@color/menta</item>
+        <item name="android:colorBackground">@color/negro</item>
+        <item name="android:windowBackground">@color/negro</item>
+        <item name="android:textColorPrimary">@color/menta</item>
+        <item name="android:textColorHint">#88FFFFFF</item>
     </style>
 
     <style name="Theme.Primer_repositorio" parent="Base.Theme.Primer_repositorio" />
+
+    <style name="Theme.Primer_repositorio.Chat" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:colorBackground">@color/negro</item>
+        <item name="android:windowBackground">@color/negro</item>
+        <item name="colorPrimary">@color/menta</item>
+        <item name="colorAccent">@color/menta</item>
+    </style>
 </resources>
