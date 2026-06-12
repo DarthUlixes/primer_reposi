@@ -48,6 +48,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.kotlinx.coroutines.android)
     implementation(libs.play.services.wearable)
+    implementation(libs.okhttp)
 
     testImplementation(libs.junit)
 

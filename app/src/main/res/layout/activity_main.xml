@@ -59,6 +59,45 @@
             android:text="@string/abrir_chat"
             android:textColor="@color/negro" />
 
+        <Button
+            android:id="@+id/btnGuardarApi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#FF9800"
+            android:text="Guardar en API (POST)"
+            android:textColor="@color/negro" />
+
+        <Button
+            android:id="@+id/btnConsultarApi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#03A9F4"
+            android:text="Consultar API (GET)"
+            android:textColor="@color/negro" />
+
+        <TextView
+            android:id="@+id/txtApiResultados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="#1AFFFFFF"
+            android:padding="8dp"
+            android:text="Los resultados aparecerán aquí"
+            android:textColor="#BBFFFFFF"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnCargarMas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#4CAF50"
+            android:text="Cargar todos"
+            android:visibility="gone"
+            android:textColor="@color/negro" />
+
     </LinearLayout>
 
 </ScrollView>
